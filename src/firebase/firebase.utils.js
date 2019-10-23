@@ -2,8 +2,7 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 import 'firebase/auth';
 
-const config =  
-    {
+const config = {
         apiKey: "AIzaSyBiUogEtcYVmWVO1-r8gp0r3sXN4Ff3DKc",
         authDomain: "react-ecommerce-6271c.firebaseapp.com",
         databaseURL: "https://react-ecommerce-6271c.firebaseio.com",
@@ -12,7 +11,32 @@ const config =
         messagingSenderId: "1005857109134",
         appId: "1:1005857109134:web:4fefd424586335509b45df",
         measurementId: "G-YX7GK51QHY"
+}
+
+export const createUserProfileDocument = async (userAuth, additionalData) => {
+    if (!userAuth) return
+
+    const userRef = firestore.doc(`users/${userAuth.uid}`)
+
+    const snapShot = await userRef.get()
+
+    if(!snapShot.exists) {
+        const { displayName, email } = userAuth
+        const createdAt = new Date()
+
+        try {
+            await userRef.set({
+                displayName,
+                email,
+                createdAt,
+                ...additionalData
+            })
+        } catch (error) {
+            console.log('error creating user', error.message)
+        }
     }
+    return userRef
+}
 
 firebase.initializeApp(config);
 
