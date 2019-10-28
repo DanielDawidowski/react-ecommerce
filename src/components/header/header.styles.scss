@@ -4,6 +4,16 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  
+
+  @media screen and (max-width: 800px){
+    padding: 0 60px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background-color: white;
+    z-index: 5;
+  }
 
   .logo-container {
     height: 100%;
