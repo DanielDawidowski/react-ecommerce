@@ -6,7 +6,7 @@
   flex-direction: column;
   padding: 20px;
   border: 1px solid black;
-  background-color: white;
+  background-color: #F2D780;
   top: 10vh;
   right: 42vw;
   z-index: 5;
@@ -14,8 +14,9 @@
 
   @media screen and (max-width: 800px){
     position: fixed;
-    top: 52vh;
-    right: 30vw;
+    top: 250px;
+    left: 15vw;
+    width: 300px;
   }
 
   .empty-message {

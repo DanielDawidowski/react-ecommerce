@@ -1,16 +1,18 @@
 .sign-in-and-sign-up {
-    width: 850px;
+    width: 1000px;
     height: 80vh;
     display: flex;
     justify-content: space-around;
     margin: 30px auto;
-    // overflow: hidden;
+    
 
     @media screen and (max-width: 800px) {
         display: grid;
-        height: 120vh;
-        width: 80vw;
         grid-template-columns: 1fr;
         grid-gap: 100px;
+        margin-left: 30px;
+        width: 80vw;
     }
+
+    
 }

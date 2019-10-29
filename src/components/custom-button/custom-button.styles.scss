@@ -6,7 +6,8 @@
   line-height: 50px;
   padding: 0 35px 0 35px;
   font-size: 15px;
-  background-color: black;
+  background-color: #6E0E0A;
+  opacity: 0.9;
   color: white;
   text-transform: uppercase;
   font-family: 'Open Sans Condensed';
@@ -34,7 +35,8 @@
   }
 
   &.inverted {
-    background-color: white;
+    background-color: #6D3533;
+
     color: black;
     border: 1px solid black;
 
