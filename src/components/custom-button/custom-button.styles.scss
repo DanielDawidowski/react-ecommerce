@@ -24,15 +24,14 @@
   }
 
   &.google-sign-in {
-    background-color: #f44242;
+    background-color: #f3300d;
     color: white;
 
     &:hover {
-      background-color: #357ae8;
+      background-color: #ee6868;
       border: none;
     }
   }
-
 
   &.inverted {
     background-color: white;
@@ -41,7 +40,7 @@
 
     &:hover {
       background-color: black;
-      color: black;
+      color: white;
       border: none;
     }
   }
