@@ -15,6 +15,7 @@
   cursor: pointer;
   display: flex;
   justify-content: center;
+  border-radius: 13px;
 
   &:hover {
     background-color: white;
@@ -23,11 +24,21 @@
   }
 
   &.google-sign-in {
-    background-color: #4285f4;
+    background-color: #f44242;
     color: white;
 
     &:hover {
       background-color: #357ae8;
+      border: none;
+    }
+  }
+
+  &.facebook-sign-in {
+    background-color: #4285f4;
+    color: white;
+
+    &:hover {
+      background-color: #ad4242;
       border: none;
     }
   }
