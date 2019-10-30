@@ -14,13 +14,13 @@ const INITIAL_STATE = {
         },
         {
             title: 'Xbox Games',
-            imageUrl: 'https://i.ibb.co/nfBrDK3/Xbox-Games.jpg',
+            imageUrl: 'https://i.ibb.co/WcCbtPD/xboxg.jpg',
             id: 3,
             linkUrl: 'shop/xbox'
         },
         {
             title: 'nintendo games',
-            imageUrl: 'https://i.ibb.co/xfDdN2c/mario.jpg',
+            imageUrl: 'https://i.ibb.co/x3kwf2W/Nintendo-D.jpg',
             size: 'large',
             id: 4,
             linkUrl: 'shop/nintendo'

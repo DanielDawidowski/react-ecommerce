@@ -20,6 +20,12 @@
       grid-gap: 20px;
     }
 
+    @media (min-width: 480px) and (max-width: 800px) {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: 20px;
+    }
+
     & .collection-item {
       margin-bottom: 30px;
     }
