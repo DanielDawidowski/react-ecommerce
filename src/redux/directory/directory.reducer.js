@@ -1,36 +1,36 @@
 const INITIAL_STATE = { 
     sections:  [
         {
-            title: 'hats',
-            imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+            title: 'consoles',
+            imageUrl: 'https://i.ibb.co/47JzMVb/consoles.jpg',
             id: 1,
-            linkUrl: 'shop/hats'
+            linkUrl: 'shop/consoles'
         },
         {
-            title: 'jackets',
-            imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+            title: 'PS4 Games',
+            imageUrl: 'https://i.ibb.co/5YV9Y4K/games.jpg',
             id: 2,
-            linkUrl: 'shop/jackets'
+            linkUrl: 'shop/ps4'
         },
         {
-            title: 'sneakers',
-            imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+            title: 'Xbox Games',
+            imageUrl: 'https://i.ibb.co/nfBrDK3/Xbox-Games.jpg',
             id: 3,
-            linkUrl: 'shop/sneakers'
+            linkUrl: 'shop/xbox'
         },
         {
-            title: 'womens',
-            imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+            title: 'nintendo games',
+            imageUrl: 'https://i.ibb.co/xfDdN2c/mario.jpg',
             size: 'large',
             id: 4,
-            linkUrl: 'shop/womens'
+            linkUrl: 'shop/nintendo'
         },
         {
-            title: 'mens',
-            imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+            title: 'SmartPhones',
+            imageUrl: 'https://i.ibb.co/v1DG4ph/a-s.jpg',
             size: 'large',
             id: 5,
-            linkUrl: 'shop/mens'
+            linkUrl: 'shop/smartphones'
         }
     ]  
 } 

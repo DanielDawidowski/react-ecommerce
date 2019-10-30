@@ -1,245 +1,245 @@
 const SHOP_DATA = {
- hats: {
+ consoles: {
     id: 1,
-    title: 'Hats',
-    routeName: 'hats',
+    title: 'Consoles',
+    routeName: 'consoles',
     items: [
       {
         id: 1,
-        name: 'Brown Brim',
-        imageUrl: 'https://i.ibb.co/ZYW3VTp/brown-brim.png',
-        price: 25
+        name: 'PS4 + Call of Duty - Modern Warfare',
+        imageUrl: 'https://i.ibb.co/714q4vN/console-ps4-COD-modern-Warfare.jpg',
+        price: 290
       },
       {
         id: 2,
-        name: 'Blue Beanie',
-        imageUrl: 'https://i.ibb.co/ypkgK0X/blue-beanie.png',
-        price: 18
+        name: 'PS4 + 3 games',
+        imageUrl: 'https://i.ibb.co/zR63Dv8/console-ps4-3games.jpg',
+        price: 280
       },
       {
         id: 3,
-        name: 'Brown Cowboy',
-        imageUrl: 'https://i.ibb.co/QdJwgmp/brown-cowboy.png',
-        price: 35
+        name: 'PS4 + FIFA20',
+        imageUrl: 'https://i.ibb.co/LC5XtVz/console-ps4-fifa20.jpg',
+        price: 280
       },
       {
         id: 4,
-        name: 'Grey Brim',
-        imageUrl: 'https://i.ibb.co/RjBLWxB/grey-brim.png',
-        price: 25
+        name: 'PS4 + Red Dead Redemption 2',
+        imageUrl: 'https://i.ibb.co/c39Ff44/console-ps4-RDD2.jpg',
+        price: 250
       },
       {
         id: 5,
-        name: 'Green Beanie',
-        imageUrl: 'https://i.ibb.co/YTjW3vF/green-beanie.png',
-        price: 18
+        name: 'Xbox Black',
+        imageUrl: 'https://i.ibb.co/N32FYpN/console-xbox.jpg',
+        price: 270
       },
       {
         id: 6,
-        name: 'Palm Tree Cap',
-        imageUrl: 'https://i.ibb.co/rKBDvJX/palm-tree-cap.png',
-        price: 14
+        name: 'Xbox White',
+        imageUrl: 'https://i.ibb.co/SrqKY3r/console-xbox-white.jpg',
+        price: 280
       },
       {
         id: 7,
-        name: 'Red Beanie',
-        imageUrl: 'https://i.ibb.co/bLB646Z/red-beanie.png',
-        price: 18
+        name: 'Nintendo Switch Lite GOLD',
+        imageUrl: 'https://i.ibb.co/rZ47MGJ/nintendo-switch-lite-gold.jpg',
+        price: 180
       },
       {
         id: 8,
-        name: 'Wolf Cap',
-        imageUrl: 'https://i.ibb.co/1f2nWMM/wolf-cap.png',
+        name: 'Nintendo Switch',
+        imageUrl: 'https://i.ibb.co/0CSDYt0/nintendo-switch.jpg',
         price: 14
       },
       {
         id: 9,
-        name: 'Blue Snapback',
-        imageUrl: 'https://i.ibb.co/X2VJP2W/blue-snapback.png',
+        name: 'Nintendo Switch Lite',
+        imageUrl: 'https://i.ibb.co/TwD9G68/nintendo-switch-lite.jpg',
         price: 16
       }
     ]
   },
-  sneakers: {
+  ps4: {
     id: 2,
-    title: 'Sneakers',
-    routeName: 'sneakers',
+    title: 'Playstation 4 Games',
+    routeName: 'ps4',
     items: [
       {
         id: 10,
-        name: 'Adidas NMD',
-        imageUrl: 'https://i.ibb.co/0s3pdnc/adidas-nmd.png',
-        price: 220
+        name: 'Rocket League',
+        imageUrl: 'https://i.ibb.co/mzLh06C/ps4-rocket-league.jpg',
+        price: 30
       },
       {
         id: 11,
-        name: 'Adidas Yeezy',
-        imageUrl: 'https://i.ibb.co/dJbG1cT/yeezy.png',
-        price: 280
+        name: 'Borderlands 3',
+        imageUrl: 'https://i.ibb.co/qBVW2Dx/ps4-borderlands3.jpg',
+        price: 32
       },
       {
         id: 12,
-        name: 'Black Converse',
-        imageUrl: 'https://i.ibb.co/bPmVXyP/black-converse.png',
-        price: 110
+        name: 'Assassins Creed Odyssey',
+        imageUrl: 'https://i.ibb.co/Z6Jq2p5/ps4-assassin-039-s-creed-odyssey.jpg',
+        price: 30
       },
       {
         id: 13,
-        name: 'Nike White AirForce',
-        imageUrl: 'https://i.ibb.co/1RcFPk0/white-nike-high-tops.png',
-        price: 160
+        name: 'Red Dead Redemption 2',
+        imageUrl: 'https://i.ibb.co/G9V5Vyw/ps4-rdd2.jpg',
+        price: 40
       },
       {
         id: 14,
-        name: 'Nike Red High Tops',
-        imageUrl: 'https://i.ibb.co/QcvzydB/nikes-red.png',
-        price: 160
+        name: 'Star Wars - Jedi Fallen Order',
+        imageUrl: 'https://i.ibb.co/9yj7Dkb/ps4-jedi.jpg',
+        price: 50
       },
       {
         id: 15,
-        name: 'Nike Brown High Tops',
-        imageUrl: 'https://i.ibb.co/fMTV342/nike-brown.png',
-        price: 160
+        name: 'GTA 5',
+        imageUrl: 'https://i.ibb.co/bHt47Ts/ps4-gta5.jpg',
+        price: 35
       },
       {
         id: 16,
-        name: 'Air Jordan Limited',
-        imageUrl: 'https://i.ibb.co/w4k6Ws9/nike-funky.png',
-        price: 190
+        name: 'FIFA 20',
+        imageUrl: 'https://i.ibb.co/qRDQ2CX/ps4-fifa20.jpg',
+        price: 50
       },
       {
         id: 17,
-        name: 'Timberlands',
-        imageUrl: 'https://i.ibb.co/Mhh6wBg/timberlands.png',
-        price: 200
+        name: 'Call of Duty - Modern Warfare',
+        imageUrl: 'https://i.ibb.co/H2Jfc3r/ps4-cod.jpg',
+        price: 60
       }
     ]
   },
-  jackets: {
+  xbox: {
     id: 3,
-    title: 'Jackets',
-    routeName: 'jackets',
+    title: 'Xbox Games',
+    routeName: 'xbox',
     items: [
       {
         id: 18,
-        name: 'Black Jean Shearling',
-        imageUrl: 'https://i.ibb.co/XzcwL5s/black-shearling.png',
-        price: 125
+        name: 'FIFA 20',
+        imageUrl: 'https://i.ibb.co/QDGqQ4K/xbox-FIFA20.jpg',
+        price: 50
       },
       {
         id: 19,
-        name: 'Blue Jean Jacket',
-        imageUrl: 'https://i.ibb.co/mJS6vz0/blue-jean-jacket.png',
-        price: 90
+        name: 'The Crew 2',
+        imageUrl: 'https://i.ibb.co/3zymXmW/xbox-crew2.jpg',
+        price: 40
       },
       {
         id: 20,
-        name: 'Grey Jean Jacket',
-        imageUrl: 'https://i.ibb.co/N71k1ML/grey-jean-jacket.png',
-        price: 90
+        name: 'Formula 1',
+        imageUrl: 'https://i.ibb.co/SBNLn3t/xbox-F1.jpg',
+        price: 49
       },
       {
         id: 21,
-        name: 'Brown Shearling',
-        imageUrl: 'https://i.ibb.co/s96FpdP/brown-shearling.png',
-        price: 165
+        name: 'Forza Horizon 4',
+        imageUrl: 'https://i.ibb.co/BHhDR4c/xbox-Forza-4.jpg',
+        price: 40
       },
       {
         id: 22,
-        name: 'Tan Trench',
-        imageUrl: 'https://i.ibb.co/M6hHc3F/brown-trench.png',
-        price: 185
+        name: 'The Sims 4',
+        imageUrl: 'https://i.ibb.co/Dz3HFX5/xbox-sims4.jpg',
+        price: 30
       }
     ]
   },
-  womens: {
+  nintendo: {
     id: 4,
-    title: 'Womens',
-    routeName: 'womens',
+    title: 'Nintendo Games',
+    routeName: 'nintendo',
     items: [
       {
         id: 23,
-        name: 'Blue Tanktop',
-        imageUrl: 'https://i.ibb.co/7CQVJNm/blue-tank.png',
+        name: 'Just Dance',
+        imageUrl: 'https://i.ibb.co/Wxkjf0j/nin-just-dance.jpg',
         price: 25
       },
       {
         id: 24,
-        name: 'Floral Blouse',
-        imageUrl: 'https://i.ibb.co/4W2DGKm/floral-blouse.png',
+        name: 'Mario Kart 8',
+        imageUrl: 'https://i.ibb.co/L9jQxHz/nin-mario-karts.jpg',
         price: 20
       },
       {
         id: 25,
-        name: 'Floral Dress',
-        imageUrl: 'https://i.ibb.co/KV18Ysr/floral-skirt.png',
-        price: 80
+        name: 'Minecraft',
+        imageUrl: 'https://i.ibb.co/FJnJ3CR/nin-minecraft.jpg',
+        price: 25
       },
       {
         id: 26,
-        name: 'Red Dots Dress',
-        imageUrl: 'https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png',
-        price: 80
+        name: 'Pokemon',
+        imageUrl: 'https://i.ibb.co/1LKQkFP/nin-pokemon.jpg',
+        price: 30
       },
       {
         id: 27,
-        name: 'Striped Sweater',
-        imageUrl: 'https://i.ibb.co/KmSkMbH/striped-sweater.png',
-        price: 45
+        name: 'Super Mario Maker 2',
+        imageUrl: 'https://i.ibb.co/fHrMQCB/nin-super-mario-maker-2.jpg',
+        price: 25
       },
       {
         id: 28,
-        name: 'Yellow Track Suit',
-        imageUrl: 'https://i.ibb.co/v1cvwNf/yellow-track-suit.png',
-        price: 135
+        name: 'Super Mario Party',
+        imageUrl: 'https://i.ibb.co/9WsRDk0/nin-super-mario-party.jpg',
+        price: 35
       },
       {
         id: 29,
-        name: 'White Blouse',
-        imageUrl: 'https://i.ibb.co/qBcrsJg/white-vest.png',
-        price: 20
+        name: 'Whitcher 3',
+        imageUrl: 'https://i.ibb.co/tQtpXjV/nin-witcher-3.jpg',
+        price: 25
       }
     ]
   },
-  mens: {
+  smartphones: {
     id: 5,
-    title: 'Mens',
-    routeName: 'mens',
+    title: 'SmartPhones',
+    routeName: 'smartphones',
     items: [
       {
         id: 30,
-        name: 'Camo Down Vest',
-        imageUrl: 'https://i.ibb.co/xJS0T3Y/camo-vest.png',
-        price: 325
+        name: 'iPhone SE',
+        imageUrl: 'https://i.ibb.co/P5M2xrx/i-Phone-SE.jpg',
+        price: 725
       },
       {
         id: 31,
-        name: 'Floral T-shirt',
-        imageUrl: 'https://i.ibb.co/qMQ75QZ/floral-shirt.png',
-        price: 20
+        name: 'iPhone 11',
+        imageUrl: 'https://i.ibb.co/KjbfP9V/i-Phone-11-Pro.jpg',
+        price: 1200
       },
       {
         id: 32,
-        name: 'Black & White Longsleeve',
-        imageUrl: 'https://i.ibb.co/55z32tw/long-sleeve.png',
-        price: 25
+        name: 'iPhone X',
+        imageUrl: 'https://i.ibb.co/wg1zwdm/iPhone-X.jpg',
+        price: 250
       },
       {
         id: 33,
-        name: 'Pink T-shirt',
-        imageUrl: 'https://i.ibb.co/RvwnBL8/pink-shirt.png',
-        price: 25
+        name: 'Samsung Galaxy A20',
+        imageUrl: 'https://i.ibb.co/DKPgzDr/samsung-galaxy-a20.jpg',
+        price: 150
       },
       {
         id: 34,
-        name: 'Jean Long Sleeve',
-        imageUrl: 'https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png',
-        price: 40
+        name: 'Samsung Galaxy A70',
+        imageUrl: 'https://i.ibb.co/M2FX22F/samsung-galaxy-a70.jpg',
+        price: 400
       },
       {
         id: 35,
-        name: 'Burgundy T-shirt',
-        imageUrl: 'https://i.ibb.co/mh3VM1f/polka-dot-shirt.png',
+        name: 'Samsung Galaxy Note 10',
+        imageUrl: 'https://i.ibb.co/Dfp5M7x/samsung-galaxy-Note10.jpg',
         price: 25
       }
     ]

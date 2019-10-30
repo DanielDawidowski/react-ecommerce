@@ -6,6 +6,10 @@
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
+  
+  @media screen and (max-width: 480px) {
+    font-size: 10px;
+  }
 
   .image-container {
     width: 23%;
@@ -20,7 +24,18 @@
   .quantity,
   .price {
     width: 23%;
+
+    @media screen and (max-width: 480px) {
+      font-size: 15px;
+    }
   }
+
+  .name {
+    @media screen and (max-width: 480px) {
+      font-size: 11px;
+    }
+  }
+  
 
   .quantity {
     display: flex;
@@ -37,5 +52,9 @@
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+
+    @media screen and (max-width: 480px) {
+      font-size: 25px;
+    }
   }
 }

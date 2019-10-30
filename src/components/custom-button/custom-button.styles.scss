@@ -30,12 +30,13 @@
 
     &:hover {
       background-color: #ee6868;
+      // opacity: 0.9;
       border: none;
     }
   }
 
   &.inverted {
-    background-color: #6D3533;
+    background-color: #F0F0C9;;
 
     color: black;
     border: 1px solid black;

@@ -17,6 +17,13 @@
     margin-bottom: 0; 
   }
 
+  .logo-text {
+    font-size: 14px;
+
+    @media screen and (max-width: 800px){
+      font-size: 10px;
+    }
+  }
 
   .logo {
     width: 75px;
